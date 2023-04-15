@@ -1,35 +1,10 @@
 body {
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.smiley {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
-    position: relative;
+  background-color: #1e1e1e; /* dark gray background */
+  color: #fff; /* white text */
 }
 
 h1 {
-    font-size: 40px;
-    margin: 0;
-    padding: 0;
-    color: #FFF;
-    position: absolute;
-    transition: all 0.5s ease;
+  font-size: 3em; /* large font size */
+  text-align: center; /* center the text */
+  margin-top: 50px; /* add some space at the top */
 }
-
-h1:nth-child(1) { top: 50%; left: 0; }
-h1:nth-child(2) { top: 0; left: 50%; }
-h1:nth-child(3) { top: 50%; left: 100%; }
-h1:nth-child(4) { top: 100%; left: 50%; }
-h1:nth-child(5) { top: 50%; left: 50%; }
-
-h1:nth-child(6) { top: 0; left: 0; }
-h1:nth-child(7) { top: 100%; left: 0; }
-h1
