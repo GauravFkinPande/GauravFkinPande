@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #container {
   font-family: 'Nosifer', cursive;
   font-size: 72px;
@@ -7,3 +8,15 @@
   align-items: center;
   justify-content: center;
 }
+=======
+body {
+  background-color: #1e1e1e; /* dark gray background */
+  color: #fff; /* white text */
+}
+
+h1 {
+  font-size: 3em; /* large font size */
+  text-align: center; /* center the text */
+  margin-top: 50px; /* add some space at the top */
+}
+>>>>>>> 57234c18ecacfa2aee556a540d887b3cbde274dd
