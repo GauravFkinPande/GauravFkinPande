@@ -1,9 +1,30 @@
-#container {
-  font-family: 'Nosifer', cursive;
-  font-size: 72px;
-  text-align: center;
-  height: 100vh;
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cursive', sans-serif;
+  background-color: #ffe6f2;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #ffc0cb, #ffe6f2);
+}
+
+/* Romantic text styles */
+.romantic-text-container {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+.romantic-text {
+  font-size: 2rem;
+  color: #b30059;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
